@@ -1,4 +1,5 @@
-**PROBLEM 1. Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
+#PROBLEM 1.
+**Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
 
 **Input Format**
 
@@ -14,7 +15,8 @@ The evaluation will be case-sensitive.
 **Sample Output 0** `Welcome Julie`
 
 ***
-**PROBLEM 2. Use a for loop to display the natural numbers from 1 to 50**
+#PROBLEM 2.
+**Use a for loop to display the natural numbers from 1 to 50**
 
 **Input Format** There is no input
 
