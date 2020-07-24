@@ -50,3 +50,29 @@ elif [ "$x" = "N" ] || [ "$x" = "n" ]; then
 else
 	echo "Invalid input"
 fi
+
+
+#6. Identify whether the triangle is scalene, isosceles, or equilateral.
+read x
+read y
+read z
+
+#check input constraints
+if (( $x < 1 )) || (( $x > 1000 )) || (( $y < 1 )) || (( $y > 1000 )) || (( $z < 1 )) || (( $z > 1000 )); then
+	echo "Number must be between 1 and 1000"
+	exit
+fi
+
+if (($x+$y <= $z)) || (($x+$z <= $y)) || (($y+$z <= $x))  ; then
+	echo "The sum of any two sides will be greater than the third."
+	exit
+fi
+
+#identify whether the triangle is scalene, isosceles, or equilateral.
+if (($x == $y)) && (($y == $z)); then
+	echo "EQUILATERAL"
+elif ( (($x == $y)) && (($x != $z)) ) || ( (($x == $z)) && (($x != $y)) ) || ( (($y == $z)) && (($y != $x)) ); then
+	echo "ISOSCELES"
+else
+	echo "SCALENE"
+fi
