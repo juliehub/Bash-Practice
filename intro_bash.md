@@ -108,6 +108,7 @@ Sample Output 2
 
 Sample Output 3
 `X is less than Y`
+
 **PROBLEM 5:Getting started with conditionals**
 Read in one character from STDIN.
 If the character is `Y` or `y` display `YES`.
