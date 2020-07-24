@@ -76,3 +76,17 @@ elif ( (($x == $y)) && (($x != $z)) ) || ( (($x == $z)) && (($x != $y)) ) || ( (
 else
 	echo "SCALENE"
 fi
+#7.Arithmetic Operations
+#echo "Enter a mathematical expression and press Enter:"
+read num
+echo $num | bc -l | xargs printf "%.3f"
+#8.Compute the Average
+sum=0
+read n
+for (( i=0; i<n ; i++))
+do
+    read num
+    sum=$(($sum + $num))
+done
+
+echo "scale=3; $sum/ $n" | bc
