@@ -27,3 +27,15 @@ if [ $x -ge -100 ] && [ $y -ge -100 ] && [ $x -le 100 ] && [ $y -le 100 ]; then
 else
     echo "Numbers out of ranges"
 fi
+
+#4. Comparing 2 numbers
+read x
+read y
+
+if [ $x -lt $y ]; then
+	echo "X is less than Y"
+elif [ $x -gt $y ]; then
+		echo "X is greater than Y"
+else
+	echo "X is equal to Y"
+fi
