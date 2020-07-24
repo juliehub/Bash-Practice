@@ -2,9 +2,9 @@
 This repository contains simple scriting problems and solutions written in Bash
 
 ## List of problems
-### Problem 1: Search files with pattern "foobar" (grep)
-* Problem statement: [search_pattern.md](https://github.com/juliehub/Bash-Practice/blob/master/search_pattern.md)
-* Sample solution: [search_pattern.sh](https://github.com/juliehub/Bash-Practice/blob/master/search_pattern.sh)
+### Problem 1: Introduction to Bash
+* Problem statement: [intro_bash.md](https://github.com/juliehub/Bash-Practice/blob/master/intro_bash.md)
+* Sample solution: [intro_bash.sh](https://github.com/juliehub/Bash-Practice/blob/master/intro_bash.sh)
 
 ## Authors
 
