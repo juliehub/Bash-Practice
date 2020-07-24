@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 #**1. Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
 read -p "Enter user:" user
@@ -42,5 +41,12 @@ else
 fi
 
 #5. Getting started with conditionals
+read x
 
-```
+if [ "$x" = "Y" ] || [ "$x" = "y" ]; then
+	echo "YES"
+elif [ "$x" = "N" ] || [ "$x" = "n" ]; then
+	echo "NO"
+else
+	echo "Invalid input"
+fi
