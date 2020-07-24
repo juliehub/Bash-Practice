@@ -81,6 +81,7 @@ fi
 read num
 echo $num | bc -l | xargs printf "%.3f"
 #8.Compute the Average
+#!/bin/bash
 sum=0
 read n
 for (( i=0; i<n ; i++))
@@ -88,5 +89,4 @@ do
     read num
     sum=$(($sum + $num))
 done
-
-echo "scale=3; $sum/ $n" | bc
+printf "%.3f" $(echo "$sum/$n" | bc -l)
