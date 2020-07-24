@@ -1,3 +1,4 @@
+#!/bin/bash
 #**1. Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
 read -p "Enter user:" user
 echo "Welcome $user"
@@ -9,3 +10,20 @@ do
     echo $x
     x=$(($x + 1))
 done
+
+#3. Basic math - The World of Numbers
+read x
+read y
+
+if [ $x -ge -100 ] && [ $y -ge -100 ] && [ $x -le 100 ] && [ $y -le 100 ]; then
+    echo `expr $x + $y`
+    echo `expr $x - $y`
+    echo `expr $x \* $y`
+    if [ $y -ne 0 ]; then
+        echo `expr $x / $y`
+    else
+        echo "Can not devide to zero!"
+    fi
+else
+    echo "Numbers out of ranges"
+fi
