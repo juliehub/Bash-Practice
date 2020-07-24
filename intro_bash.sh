@@ -1,3 +1,4 @@
+```bash
 #!/bin/bash
 #**1. Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
 read -p "Enter user:" user
@@ -35,7 +36,11 @@ read y
 if [ $x -lt $y ]; then
 	echo "X is less than Y"
 elif [ $x -gt $y ]; then
-		echo "X is greater than Y"
+	echo "X is greater than Y"
 else
 	echo "X is equal to Y"
 fi
+
+#5. Getting started with conditionals
+
+```
