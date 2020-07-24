@@ -1,4 +1,4 @@
-#PROBLEM 1.
+### PROBLEM 1.
 **Write a Bash script which accepts  as input and displays a greeting: "Welcome (name)"**
 
 **Input Format**
@@ -15,7 +15,7 @@ The evaluation will be case-sensitive.
 **Sample Output 0** `Welcome Julie`
 
 ***
-#PROBLEM 2.
+### PROBLEM 2.
 **Use a for loop to display the natural numbers from 1 to 50**
 
 **Input Format** There is no input
@@ -35,7 +35,8 @@ The evaluation will be case-sensitive.
 50
 ```
 ***
-**PROBLEM 3.The World of Numbers**
+### PROBLEM 3.
+**The World of Numbers**
 Given two integers, `X` and `Y`, find their sum, difference, product, and quotient.
 **Input Format**
 
@@ -70,7 +71,8 @@ Four lines containing the sum (`X+Y`), difference (`X-Y`), product (`X*Y`), and 
 5 / 2 = 2 (Integer part)
 ```
 ***
-**PROBLEM 4: Given two integers, `X` and `Y` , identify whether `X<Y` or `X>Y` or `X=Y`.**
+### PROBLEM 4. 
+**Given two integers, `X` and `Y` , identify whether `X<Y` or `X>Y` or `X=Y`.**
 
 Exactly one of the following lines:
 - X is less than Y
@@ -111,7 +113,8 @@ Sample Output 2
 Sample Output 3
 `X is less than Y`
 ***
-**PROBLEM 5: Getting started with conditionals**
+### PROBLEM 5.
+**Getting started with conditionals**
 Read in one character from STDIN.
 If the character is `Y` or `y` display `YES`.
 If the character is `N` or `n` display `NO`.
@@ -125,7 +128,8 @@ No other character will be provided as input.
 echo `YES` or `NO` to STDOUT.
 
 ***
-**PROBLEM 6: Given three integers (`X`,`Y`, and `Z` ) representing the three sides of a triangle, identify whether the triangle is scalene, isosceles, or equilateral.**
+### PROBLEM 6. 
+**Given three integers (`X`,`Y`, and `Z` ) representing the three sides of a triangle, identify whether the triangle is scalene, isosceles, or equilateral.**
 
 If all three sides are equal, output `EQUILATERAL`.
 Otherwise, if any two sides are equal, output `ISOSCELES`.
@@ -160,7 +164,8 @@ Sample Output 2
 EQUILATERAL
 ```
 ***
-**PROBLEM 7: Arithmetic Operations**
+### PROBLEM 7.
+**Arithmetic Operations**
 A mathematical expression containing +,-,*,^, / and parenthesis will be provided. Read in the expression, then evaluate it. Display the result rounded to **3** decimal places.
 
 **Constraints** All numeric values are <= 999.
@@ -187,7 +192,8 @@ Sample Output 2
 Sample Output 3
 `22.146`
 ***
-**PROBLEM 8: Compute the Average**
+### PROBLEM 8.
+**Compute the Average**
 Given `N` integers, compute their average, rounded to three decimal places.
 
 **Input Format**
