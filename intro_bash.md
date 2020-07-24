@@ -13,7 +13,7 @@ The evaluation will be case-sensitive.
 
 **Sample Output 0** `Welcome Julie`
 
-
+***
 **PROBLEM 2. Use a for loop to display the natural numbers from 1 to 50**
 
 **Input Format** There is no input
@@ -32,7 +32,7 @@ The evaluation will be case-sensitive.
 .
 50
 ```
-
+***
 **PROBLEM 3.The World of Numbers**
 Given two integers, `X` and `Y`, find their sum, difference, product, and quotient.
 **Input Format**
@@ -67,7 +67,7 @@ Four lines containing the sum (`X+Y`), difference (`X-Y`), product (`X*Y`), and 
 5 * 2 = 10
 5 / 2 = 2 (Integer part)
 ```
-
+***
 **PROBLEM 4: Given two integers, `X` and `Y` , identify whether `X<Y` or `X>Y` or `X=Y`.**
 
 Exactly one of the following lines:
@@ -108,7 +108,7 @@ Sample Output 2
 
 Sample Output 3
 `X is less than Y`
-
+***
 **PROBLEM 5: Getting started with conditionals**
 Read in one character from STDIN.
 If the character is `Y` or `y` display `YES`.
@@ -122,6 +122,7 @@ No other character will be provided as input.
 **Output Format**
 echo `YES` or `NO` to STDOUT.
 
+***
 **PROBLEM 6: Given three integers (`X`,`Y`, and `Z` ) representing the three sides of a triangle, identify whether the triangle is scalene, isosceles, or equilateral.**
 
 If all three sides are equal, output `EQUILATERAL`.
