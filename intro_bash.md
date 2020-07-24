@@ -68,7 +68,7 @@ Four lines containing the sum (`X+Y`), difference (`X-Y`), product (`X*Y`), and 
 5 / 2 = 2 (Integer part)
 ```
 
-**PROBLEM 4: Given two integers, `X` and `Y` , identify whether `X<Y` or `X>Y` or `X=Y`.
+**PROBLEM 4: Given two integers, `X` and `Y` , identify whether `X<Y` or `X>Y` or `X=Y`.**
 
 Exactly one of the following lines:
 - X is less than Y
