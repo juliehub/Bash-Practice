@@ -1,4 +1,5 @@
-### TU
+### REFERENCES
+https://www.folkstalk.com/2012/02/cut-command-in-unix-linux-examples.html
 ### PROBLEM 1
 Given `N` lines of input, print the `3rd` character from each line as a new line of output. It is guaranteed that each of the `n` lines of input will have a `3rd` character.
 
