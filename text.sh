@@ -26,4 +26,7 @@ done
 # 5. Given a tab delimited file with several columns (tsv format) print the first three fields.
 cut -f 1-3
 ################################
-#  
+# 6. The cut command to display the first field in /etc/passwd file
+cut -d':' -f1 /etc/passwd
+################################
+# 7. 
