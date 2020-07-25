@@ -182,11 +182,6 @@ Thy youth's proud livery so gazed on now,
 Will be a tattered weed of small worth held:
 Then being asked, where all thy beauty lies,
 Where all the treasure of thy lusty days;
-To say within thine own deep sunken eyes,
-Were an all-eating shame, and thriftless praise.
-How much more praise deserved thy beauty's use,
-If thou couldst answer 'This fair child of mine
-Shall sum my count, and make my old excuse'
 ```
 **Sample Output**
 ```python
@@ -210,7 +205,42 @@ Thy youth's proud livery so gazed on now,
 Will be a tattered weed of small worth held:
 Then being asked, where all thy beauty lies,
 Where all the treasure of thy lusty days;
- From fairest creatures we desire increase,
+If thou couldst answer 'This fair child of mine
+Shall sum my count, and make my old excuse'
+```
+***
+### PROBLEM 8 Head of a Text File #2
+In this challenge, we practice using the head command to display the first **n**  characters of a text file.
+
+Display the first **20** characters of an input file.
+
+**Input Format** A text file.
+
+**Output Format** Output the first **20** characters of the text file.
+
+**Sample Input**
+```python
+New York is a state in the Northeastern and Mid-Atlantic regions of the United States. 
+New York is the 27th-most extensive, the third-most populous populated of the 50 United States. 
+New York is bordered by New Jersey and Pennsylvania to the south.
+About one third of all the battles of the Revolutionary War took place in New York.
+Henry Hudson's 1609 voyage marked the beginning of European involvement with the area.
+```
+**Sample Output**
+```python
+New York is a state
+```
+***
+### PROBLEM 9 Middle of a Text File
+Display the lines (from line number 12 to 22, both inclusive) of a given text file.
+
+**Input Format** A text file
+
+**Output Format** Display the lines (from line number 12 to 22, both inclusive) for the input file.
+
+**Sample Input**
+```python
+From fairest creatures we desire increase,
 That thereby beauty's rose might never die,
 But as the riper should by time decease,
 His tender heir might bear his memory:
@@ -230,6 +260,25 @@ Thy youth's proud livery so gazed on now,
 Will be a tattered weed of small worth held:
 Then being asked, where all thy beauty lies,
 Where all the treasure of thy lusty days;
+To say within thine own deep sunken eyes,
+Were an all-eating shame, and thriftless praise.
+How much more praise deserved thy beauty's use,
+If thou couldst answer 'This fair child of mine
+Shall sum my count, and make my old excuse'
+```
+**Sample Output**
+```python
+And tender churl mak'st waste in niggarding:
+Pity the world, or else this glutton be,
+To eat the world's due, by the grave and thee.
+When forty winters shall besiege thy brow,
+And dig deep trenches in thy beauty's field,
+Thy youth's proud livery so gazed on now,
+Will be a tattered weed of small worth held:
+Then being asked, where all thy beauty lies,
+Where all the treasure of thy lusty days;
+To say within thine own deep sunken eyes,
+Were an all-eating shame, and thriftless praise.
 ```
 ***
-### PROBLEM 8 Head of a Text File #2
+### PROBLEM 10
