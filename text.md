@@ -51,3 +51,31 @@ e
 o
 oe
 ```
+***
+###PROBLEM 3
+
+Display a range of characters starting at the **2nd** position of a string and ending at the **7th** position (both positions included).
+
+**Input Format**
+
+A text file containing `N` lines of ASCII text only.
+
+**Constraints**
+
+**Output Format**
+
+The output should contain `N` lines.
+Each line should contain the range of characters starting at the **2nd** position of a string and ending at the **7th** position (both positions included).
+
+**Sample Input**
+```python
+Hello
+World
+how are you
+```
+**Sample Output**
+```python
+ello
+orld
+```
+ow are
