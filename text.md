@@ -125,7 +125,7 @@ A tab-separated file with lines of ASCII text only.
 
 **Output Format**
 
-The output should contain `N` lines. For each line in the input, print the first three fields.
+The output should contain `N` lines. For each line in the input, print the **first three fields**.
 
 **Sample Input**
 ```python
@@ -145,3 +145,9 @@ The output should contain `N` lines. For each line in the input, print the first
 ```
 ***
 ### PROBLEM 6
+Write a unix/linux cut command to display the first field from /etc/passwd file?
+
+The /etc/passwd is a delimited file and the delimiter is a colon (:). 
+
+***
+### PROBLEM 7
