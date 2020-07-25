@@ -52,8 +52,7 @@ o
 oe
 ```
 ***
-###PROBLEM 3
-
+### PROBLEM 3
 Display a range of characters starting at the **2nd** position of a string and ending at the **7th** position (both positions included).
 
 **Input Format**
@@ -77,5 +76,5 @@ how are you
 ```python
 ello
 orld
-```
 ow are
+```
