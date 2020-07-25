@@ -1,4 +1,4 @@
-### PROBLEM 1 'Tr' Command #1
+### PROBLEM 1: 'Tr' Command #1
 In this challenge, we practice using the tr command because it is a useful translation tool in Linux.
 
 In a given fragment of text, replace all parentheses () with box brackets [].
@@ -24,7 +24,7 @@ int i=[int]5.8
 [23 + 5]*2
 ```
 ***
-### PROBLEM 2 'Tr' Command #2
+### PROBLEM 2: 'Tr' Command #2
 In this challenge, we practice using the `tr` command because it is a useful translation tool in Linux.
 
 In a given fragment of text, delete all the lowercase characters `a-z`.
@@ -47,7 +47,7 @@ H
 W
 ```
 ***
-### PROBLEM 3 'Tr' Command #3
+### PROBLEM 3: 'Tr' Command #3
 In a given fragment of text, replace all sequences of multiple spaces with just one space.
 
 **Input Format** A block of ASCII text.
@@ -83,7 +83,7 @@ The `-t` option is used while specifying a delimiter in a particular file where 
 
 A few useful resources to study different variants as well as working examples of the sort command are:
 ***
-### PROBLEM 4 Sort Command #1
+### PROBLEM 4: Sort Command #1
 In this challenge, we practice using the sort command to sort input in text or TSV formats.
 
 Given a text file, order the lines in lexicographical order.
@@ -111,7 +111,95 @@ Shri Neelam Sanjiva Reddy       July 25, 1977   July 25, 198
 Shri Varahagiri Venkata Giri        August 24, 1969 August 24, 1974
 ```
 ***
-### PROBLEM 5
+### PROBLEM 5: Sort Command #2
+In this challenge, we practice using the sort command to sort input in text or TSV formats.
+
+Given a text file, order the lines in reverse lexicographical order (i.e. Z-A instead of A-Z).
+
+**Input Format** A text file.
+
+**Output Format** Output the text file with the lines reordered in reverse lexicographical order.
+
+**Sample Input**
+```python
+Dr. Rajendra Prasad     January 26, 1950    May 13, 1962
+Dr. S. Radhakrishnan        May 13, 1962    May 13, 1967
+Dr. Zakir Hussain       May 13, 1967    August 24, 1969
+Shri Varahagiri Venkata Giri        August 24, 1969 August 24, 1974
+Shri Fakhruddin Ali Ahmed       August 24, 1974 February 11, 1977
+Shri Neelam Sanjiva Reddy       July 25, 1977   July 25, 198
+```
+**Sample Output**
+```python
+Shri Varahagiri Venkata Giri        August 24, 1969 August 24, 1974
+Shri Neelam Sanjiva Reddy       July 25, 1977   July 25, 198
+Shri Fakhruddin Ali Ahmed       August 24, 1974 February 11, 1977
+Dr. Zakir Hussain       May 13, 1967    August 24, 1969
+Dr. S. Radhakrishnan        May 13, 1962    May 13, 1967
+Dr. Rajendra Prasad     January 26, 1950    May 13, 1962
+```
+***
+### PROBLEM 6: Sort Command #3
+In this challenge, we practice using the sort command to sort input in text or TSV formats.
+
+You are given a text file where each line contains a number. The numbers may be either an integer or have decimal places. There will be no extra characters other than the number or the newline at the end of each line. Sort the lines in ascending order - so that the first line holds the numerically smallest number, and the last line holds the numerically largest number.
+
+**Input Format**
+
+A text file where each line contains a positive number (less than **100**) as described above.
+
+**Output Format**
+
+Output the text file with the lines reordered in numerically ascending order.
+
+**Sample Input**
+```python
+9.1
+43.7
+2.2
+62.1
+2.1
+9.3
+43.5
+4.6
+44.6
+4.7
+42.7
+47.4
+46.6
+4.5
+55.6
+4
+9.2
+66.6
+2
+2.3
+```
+**Sample Output**
+```python
+2
+2.1
+2.2
+2.3
+4
+4.5
+4.6
+4.7
+9.1
+9.2
+9.3
+42.7
+43.5
+43.7
+44.6
+46.6
+47.4
+55.6
+62.1
+66.6
+```
+***
+### PROBLEM 7: 
 
 ***
-### PROBLEM 6
+### PROBLEM 8: 
