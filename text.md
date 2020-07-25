@@ -281,4 +281,24 @@ To say within thine own deep sunken eyes,
 Were an all-eating shame, and thriftless praise.
 ```
 ***
-### PROBLEM 10
+### PROBLEM 10 Tail of a Text File
+In this challenge, we practice using the tail command to display the last **n** characters of a text file.
+
+Display the last **20** characters of an input file.
+
+**Input Format** A text file.
+
+**Output Format** Output the last  characters of the text file.
+
+**Sample Input**
+```python
+New York is a state in the Northeastern and Mid-Atlantic regions of the United States. 
+New York is the 27th-most extensive, the third-most populous populated of the 50 United States. 
+New York is bordered by New Jersey and Pennsylvania to the south.
+About one third of all the battles of the Revolutionary War took place in New York.
+Henry Hudson's 1609 voyage marked the beginning of European involvement with the area.
+```
+**Sample Output**
+```python
+ent with the area.
+```
