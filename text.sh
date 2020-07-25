@@ -29,4 +29,14 @@ cut -f 1-3
 # 6. The cut command to display the first field in /etc/passwd file
 cut -d':' -f1 /etc/passwd
 ################################
-# 7. 
+# 7. Display the first 20 lines of an input file.
+head -n 20
+################################
+# 8. Display the first 20 characters of an input file.
+head -c 20
+################################
+# 9. Display the lines (from line number 12 to 22, both inclusive) of a given text file.
+head -n 22|tail -n 11
+################################
+# 10. Display the last 20 characters of an input file.
+tail -c 20
