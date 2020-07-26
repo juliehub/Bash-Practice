@@ -31,3 +31,7 @@ uniq -c|sed "s/^[[:space:]]*//g"
 # 11. Count the number of times each line repeats itself (only consider consecutive repetions). Compare consecutive lines in a case insensitive manner
 uniq -ci|sed "s/^[[:space:]]*//g"
 ###########################
+# 12. Display only those lines which are not followed or preceded by identical replications.
+uniq -u
+###########################
+# 13. 
