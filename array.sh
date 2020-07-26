@@ -6,4 +6,8 @@ echo ${arr[*]}
 arr=($(cat))  
 echo ${arr[@]:3:5}
 #####################
-# 3.
+# 3. From the given list, remove the names that contain 'a' or 'A' in them. If there are no names left after removing these characters, you should display a blank line.
+arr=($(cat))
+echo ${arr[@]/*[aA]*/}
+#####################
+# 4.
