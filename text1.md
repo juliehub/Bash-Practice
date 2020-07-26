@@ -418,7 +418,7 @@ aa is repeated thrice (if we ignore case - AA, Aa are the same as 'aa')
 ```
 ***
 ### PROBLEM 12: 'Uniq' command #4
-Given a text file, display only those lines which are not followed or preceded by identical replications.
+Given a text file, display only those lines which are **not** followed or preceded by identical replications.
 
 **Sample Input**
 ```python
