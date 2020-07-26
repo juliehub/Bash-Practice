@@ -34,4 +34,14 @@ uniq -ci|sed "s/^[[:space:]]*//g"
 # 12. Display only those lines which are not followed or preceded by identical replications.
 uniq -u
 ###########################
-# 13. 
+# 13. Merge lines of a given file. Replace the newlines in the input file with semicolons.
+paste -d';' -s
+###########################
+# 14. Restructure the file so that three consecutive rows are folded into one line and are separated by semicolons.
+paste -d ';;' - - - 
+###########################
+# 15. Replace the newlines in the input with tabs
+paste -d'\t' -s
+###########################
+# 16. Restructure the file in such a way, that every group of three consecutive rows are folded into one, and separated by tab.
+paste -d'\t' - - -
