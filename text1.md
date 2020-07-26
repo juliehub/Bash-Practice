@@ -450,6 +450,9 @@ The comparison is case sensitive, so the first instance of "A00" and "a00" are c
 The next instance of A00 is succeeded and preceded by different lines, so that is also included in the output.
 The same holds true for 03 - it is succeeded and preceded by different lines, so that is also included in the output.
 ***
+### TUTORIAL
+https://www.theunixschool.com/2012/07/10-examples-of-paste-command-usage-in.html
+***
 ### PROBLEM 13: Paste - 1
 In this challenge, we practice using the paste command to merge lines of a given file.
 
@@ -488,9 +491,6 @@ Albany, N.Y.;Albuquerque, N.M.;Anchorage, Alaska;Asheville, N.C.;Atlanta, Ga.;At
 **Explanation**
 
 The delimiter between consecutive rows of data has been transformed from the newline to a semicolon.
-***
-### TUTORIAL
-https://www.theunixschool.com/2012/07/10-examples-of-paste-command-usage-in.html
 ***
 ### PROBLEM 14: Paste - 2
 In this challenge, we practice using the paste command to merge lines of a given file.
