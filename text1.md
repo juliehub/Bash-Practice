@@ -449,4 +449,43 @@ The comparison is case sensitive, so the first instance of "A00" and "a00" are c
 The next instance of A00 is succeeded and preceded by different lines, so that is also included in the output.
 The same holds true for 03 - it is succeeded and preceded by different lines, so that is also included in the output.
 ***
-### PROBLEM 13:
+### PROBLEM 13: Paste - 1
+In this challenge, we practice using the paste command to merge lines of a given file.
+
+You are given a CSV file where each row contains the name of a city and its state separated by a comma. Your task is to replace the newlines in the file with semicolons as demonstrated in the sample.
+
+**Input Format**
+
+You are given a CSV file where each row contains the name of a city and its state separated by a comma.
+
+**Output Format**
+
+Replace the newlines in the input file with semicolons as demonstrated in the sample.
+
+**Sample Input**
+```python
+Albany, N.Y.
+Albuquerque, N.M.
+Anchorage, Alaska
+Asheville, N.C.
+Atlanta, Ga.
+Atlantic City, N.J.
+Austin, Texas
+Baltimore, Md.
+Baton Rouge, La.
+Billings, Mont.
+Birmingham, Ala.
+Bismarck, N.D.
+Boise, Idaho
+Boston, Mass.
+Bridgeport, Conn.
+```
+**Sample Output**
+```python
+Albany, N.Y.;Albuquerque, N.M.;Anchorage, Alaska;Asheville, N.C.;Atlanta, Ga.;Atlantic City, N.J.;Austin, Texas;Baltimore, Md.;Baton Rouge, La.;Billings, Mont.;Birmingham, Ala.;Bismarck, N.D.;Boise, Idaho;Boston, Mass.;Bridgeport, Conn.
+```
+**Explanation**
+
+The delimiter between consecutive rows of data has been transformed from the newline to a semicolon.
+***
+### PROBLEM 14:
