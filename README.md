@@ -18,10 +18,6 @@ This repository contains simple scriting problems and solutions written in Bash
 * Problem statement: [array.md](https://github.com/juliehub/Bash-Practice/blob/master/array.md)
 * Sample solution: [array.sh](https://github.com/juliehub/Bash-Practice/blob/master/array.sh)
 
-### Problem 5: Grep Sed Awk
-* Problem statement: [grep.md](https://github.com/juliehub/Bash-Practice/blob/master/grep.md)
-* Sample solution: [grep.sh](https://github.com/juliehub/Bash-Practice/blob/master/grep.sh)
-
 ## Authors
 
 * **Julie** - [Julie Github Repository](https://github.com/juliehub)
